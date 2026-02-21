@@ -1,7 +1,7 @@
 # Project 2: SSH Log Analysis - Detecting Brute Force Attacks
 ## A Practical Investigation of SSH Threat Detection Using Splunk SIEM
 
-**Author:** [Your Name]  
+**Author:** [Siddique Reza Khan]  
 **Date:** February 12, 2026  
 **Platform:** Haxcamp - 7-Days Splunk SIEM Investigation Challenge  
 **Project:** Day 2 - SSH Log Analysis
@@ -58,6 +58,8 @@ This report documents a security investigation into a sophisticated SSH brute fo
 
 **Impact:** This investigation demonstrates the critical importance of SSH log monitoring and the effectiveness of SIEM platforms in detecting slow, methodical attacks that might evade traditional security controls.
 
+![Feedback](../Images/19.png)
+
 ---
 
 ## 2. Abstract
@@ -69,6 +71,8 @@ Through systematic log analysis using Splunk's Search Processing Language (SPL),
 This report presents the complete investigation methodology, SPL queries used, findings, and security recommendations. It demonstrates practical application of SIEM technology for threat detection and incident response in real-world scenarios.
 
 **Keywords:** SSH Brute Force, Credential Guessing, SIEM Investigation, Splunk SPL, Attack Timeline Reconstruction, Failed Authentication, Network Reconnaissance, Threat Detection, SOC Analysis, Linux Security, Incident Response
+
+![Splunk](../Images/4.png)
 
 ---
 
@@ -83,6 +87,8 @@ Brute force attacks against SSH services are among the most common attack vector
 ### 3.2 The Challenge
 
 On February 12, 2026, as part of the Haxcamp 7-Days Splunk SIEM Investigation Challenge, we encountered a realistic scenario titled "The Slow SSH Takeover." This exercise simulated a real-world security incident requiring forensic investigation using only SSH logs.
+
+![The Challenge](../Images/0.png)
 
 ### 3.3 Investigation Objectives
 
@@ -101,6 +107,8 @@ The primary objectives of this investigation were to:
 **Log Source:** SSH connection and authentication logs from Linux servers  
 **Tools Used:** Splunk Enterprise SIEM Platform  
 **Data Volume:** 305 SSH-related events analyzed
+
+![Investigation Scope](../Images/1.png)
 
 ---
 
@@ -372,6 +380,8 @@ event_type: Successful SSH Login
 
 **Answer: 10.0.0.43**
 
+![Question 1](../Images/18.png)
+
 #### Analysis
 
 **What This Tells Us:**
@@ -398,6 +408,8 @@ event_type: Successful SSH Login
 - Check if there are earlier events in different indexes
 - Investigate IP 10.0.0.43 for additional suspicious activity
 - Determine if this IP is associated with a known administrator
+
+![Analysis Question 1](../Images/17.png)
 
 #### Points Awarded: 40 points ✅
 
@@ -514,6 +526,8 @@ count: 8
 
 **Answer: 10.0.0.57**
 
+![Result](../Images/16.png)
+
 #### Analysis
 
 **What This Tells Us:**
@@ -549,6 +563,13 @@ If detected in production:
 - **Investigate:** Check if IP is internal user or compromised system
 - **Monitor:** Watch for attacks against the 8 identified servers
 - **Harden:** Implement fail2ban, rate limiting, or port knocking
+
+![1st Analysis](../Images/13.png)
+
+![2nd Analysis](../Images/14.png)
+
+![3rd Analysis](../Images/15.png)
+
 
 #### Points Awarded: 20 points ✅ (after multiple attempts)
 
@@ -657,6 +678,12 @@ count: 29
 
 **Answer: 10.0.1.11**
 
+![Result findings steps 1](../Images/6.png)
+
+![Result findings steps 2](../Images/11.1.png)
+
+![Result findings steps 3](../Images/11.png)
+
 #### Analysis
 
 **What This Tells Us:**
@@ -712,6 +739,8 @@ index=lab sourcetype=ssh_json "id.resp_h"="10.0.1.11"
    - Implement network segmentation
 
 #### Points Awarded: 50 points ✅
+
+![Analysis](../Images/12.png)
 
 ---
 
