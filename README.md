@@ -613,11 +613,11 @@ Completing these projects demonstrates proficiency in skills required for:
 
 I'm always happy to connect with fellow cybersecurity professionals and learners!
 
-- 📧 **Email:** [your.email@example.com](mailto:your.email@example.com)
-- 💼 **LinkedIn:** [linkedin.com/in/yourprofile](https://linkedin.com/in/yourprofile)
-- 🐦 **Twitter:** [@yourhandle](https://twitter.com/yourhandle)
-- 📝 **Blog:** [yourblog.com](https://yourblog.com)
-- 💬 **Discord:** [Join our community](https://discord.gg/yourserver)
+- 📧 **Email:** [siddiquereza.k@gmail.com](mailto:siddiquereza.k@gmail.com)
+- 💼 **LinkedIn:** [Siddique Reza Khan](https://www.linkedin.com/in/siddique-reza-khan/)
+- 🐦 **Twitter:** [@khansiddreza](https://x.com/khansiddreza)
+- 📝 **Blog:** [Siddique Reza Khan](https://medium.com/@weexplore2learn)
+- 💬 **Discord:** [Join our community](https://discord.gg/dpc6X6Kj)
 
 ### Stay Updated
 
